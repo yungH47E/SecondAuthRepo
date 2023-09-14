@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c93bcb-c7c0-4c18-8eae-c6baa2240af4">
+  <producedTypes>
+    <objectType typeId="083d2fe7-fb61-4e45-aa25-6938a3f3535a" valueTypeId="4dea6c0d-7ba8-4655-94a1-b544dd198453"/>
+    <refType typeId="5eb21fd1-2362-47b8-b9c3-b6f51e8bcc18" valueTypeId="18c16d5a-fc7e-4a18-95cd-e820ac48c43d"/>
+    <selectionType typeId="a8bd39aa-61e9-40a4-a396-782a80a30fd0" valueTypeId="21b9edf2-66f9-4562-9f4f-5963545effe3"/>
+    <listType typeId="05c0975a-2b49-4628-83d0-80e828c20b1e" valueTypeId="71243d1e-47ef-4135-bfa4-1633f0faeb1a"/>
+    <managerType typeId="e0ee7681-8c7f-47c7-9fd9-d7d07085bbbe" valueTypeId="dce4b2a5-2e9a-451c-bcb4-35640db04854"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пользователь</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b5f6f0e7-4504-4274-9717-7e88ba4be273">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

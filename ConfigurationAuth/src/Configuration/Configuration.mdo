@@ -38,4 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.ЛоготипКартинка</commonPictures>
+  <commonForms>CommonForm.ФормаАвторизации</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
